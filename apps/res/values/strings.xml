@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PORTADROID</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_apropos">AproposActivity</string>
+    <string name="title_activity_device_list">DeviceList</string>
+    <string name="apropos_txt">A PROPOS DE L\' APPLICATION</string>
+    <string name="texte_txt">L\'application  PORTADROID permet de commander un portail coulissant avec ARDUINO et un module Bluetooth HC05.</string>
+  	<string name="paired_device_text">PERIPHERIQUES APPAIRES</string>
+  	<string name="portail_text">COMMANDE DE PORTAIL COULISSANT</string>
+  	<string name="abt_text">A PROPOS</string>
+  	<string name="deconect_text">DECONNEXION</string>
+  	<string name="label_text">Message</string>
+  	 
+</resources>
