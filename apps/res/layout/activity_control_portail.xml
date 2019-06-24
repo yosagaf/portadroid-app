@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mylabel"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#007eff"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ControlPortail" >
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginTop="15dp"
+       android:fontFamily="Century"
+       android:gravity="center"
+       android:text="@string/portail_text"
+       android:textColor="#ffffff"
+       android:textSize="18sp"
+       android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDeonnect"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="Century"
+        android:text="@string/deconect_text"
+        android:textColor="#FFF"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/btnApropos"
+        style="?android:attr/buttonStyleSmall"
+        android:textColor="#FFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnDeonnect"
+        android:layout_alignBottom="@+id/btnDeonnect"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_toRightOf="@+id/btnDeonnect"
+        android:fontFamily="Century"
+        android:text="@string/abt_text"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <ImageButton
+        android:id="@+id/ouverture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:src="@drawable/ouverture" />
+
+    <ImageButton
+        android:id="@+id/fermeture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ouverture"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:src="@drawable/femeture" />
+
+    <TextView
+        android:id="@+id/labelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnDeonnect"
+        android:layout_alignLeft="@+id/btnDeonnect"
+        android:layout_alignRight="@+id/btnApropos"
+        android:fontFamily="Century"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"
+        android:background="#007eff"
+        android:text="@string/label_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

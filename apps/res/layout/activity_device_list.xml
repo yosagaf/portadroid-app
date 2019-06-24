@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007eff"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <Button
+        android:id="@+id/btnPaired"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:background="#001280"
+        android:fontFamily="Century"
+        android:text="@string/paired_device_text"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="288dp"
+        android:fontFamily="Century"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:padding="@dimen/activity_vertical_margin"
+        android:textAlignment="center" >
+
+    </ListView>
+
+</LinearLayout>
